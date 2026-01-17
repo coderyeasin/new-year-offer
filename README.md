@@ -1,73 +1,53 @@
-# React + TypeScript + Vite
+# 🎉 Happy New Year Offer - App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/React-18.x-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 
-Currently, two official plugins are available:
+A strictly typed, pixel-perfect React application designed to showcase exclusive New Year deals. This project transforms a static Figma design into a fully functional, high-performance web application using modern frontend practices.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+> **⚡ Rapid Development:** This entire application was architected, styled, and deployed in just **3-4 hours**, demonstrating efficiency without compromising on code structure or visual fidelity.
 
-## React Compiler
+---
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+## 📸 Preview
 
-## Expanding the ESLint configuration
+![App Screenshot](public/screenshot.png)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## ✨ Key Features
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- **🎨 Pixel-Perfect Implementation:** Faithful conversion of the Figma design to code, ensuring every spacing, font size, and color matches the original vision.
+- **📱 Fully Responsive:** Adaptive layout using Tailwind CSS that looks stunning on mobile, tablet, and desktop screens.
+- **🛡️ Type-Safe Architecture:** Built with **TypeScript** for robust, error-free code and better developer experience.
+- **🔤 Typography:** Integrated **Google Fonts** for clean and modern typography.
+- **🧩 Component-Based:** Organized project structure with reusable components and React Icons for scalable development.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🛠️ Tech Stack & Topics
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+This project utilizes the following technologies and libraries:
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- **Framework:** [React.js](https://reactjs.org/) (Vite/CRA)
+- **Language:** [TypeScript](https://www.typescriptlang.org/)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **Icons:** [React Icons](https://react-icons.github.io/react-icons/)
+- **Fonts:** [Google Fonts](https://fonts.google.com/)
+- **Design Tool:** [Figma](https://www.figma.com/design/lHBSDHoAu1TYQIb6zKGkaH/new-year-offer?node-id=114-3678&t=1kfhJ68uv50iySEq-1)
+
+---
+
+## 📂 Code Organization
+
+The codebase focuses on clean code principles and modularity:
+
+```bash
+src/
+├── assets/          # Static assets (images, logos)
+├── components/      # Reusable UI elements (Buttons, Cards, Modals)
+├── layout/          # Structural components (Navbar, Footer, Hero Section)
+└── App.tsx          # Main entry point
 ```
