@@ -66,7 +66,7 @@ const BestOffer = () => {
             alt="gift"
             className="w-168.5 h-144.25 absolute bottom-6 left-22 z-30 drop-shadow-TextPrimary/20"
           />
-          <div className="bg-secondary leading-12 font-inter font-bold text-[28px] text-white flex flex-col justify-center items-center -rotate-45 h-48 w-48 rounded-full absolute right-8 top-48">
+          <div className="bg-secondary leading-12 font-inter font-bold text-[28px] text-white flex flex-col justify-center items-center -rotate-45 h-48 w-48 rounded-full absolute right-18 top-48">
             <span className="text-[72px]">50%</span> DISCOUNT
           </div>
           <div className="bg-secondary w-full h-57.25 rounded-2xl absolute -bottom-14 z-10"></div>
