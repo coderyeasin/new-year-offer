@@ -1,4 +1,3 @@
-import React from "react";
 import firstBag from "/src/assets/products/bag.png";
 import secondBag from "/src/assets/products/bag-two.png";
 import redShoe from "/src/assets/products/red-shoe.png";

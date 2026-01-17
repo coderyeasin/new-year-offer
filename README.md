@@ -11,10 +11,6 @@ A strictly typed, pixel-perfect React application designed to showcase exclusive
 
 ---
 
-## 📸 Preview
-
-![App Screenshot](public/screenshot.png)
-
 ---
 
 ## ✨ Key Features

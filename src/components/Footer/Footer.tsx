@@ -1,5 +1,3 @@
-import React from "react";
-
 import { FaPhoneVolume } from "react-icons/fa";
 import { TbWorldWww } from "react-icons/tb";
 import fb from "/icons/fb.png";
