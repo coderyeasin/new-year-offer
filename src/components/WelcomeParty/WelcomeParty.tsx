@@ -1,6 +1,5 @@
 import Container from "../layout/Container";
 import Section from "../layout/Section";
-// import partyImg from "/src/assets/party.png";
 import newYear from "/src/assets/new-year-shape.png";
 const WelcomeParty = () => {
   return (
