@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-inter: "Inter", sans-serif;
+  --font-merriweather: "Merriweather", sans-serif;
+
+  --color-bgPrimary: #ffffff;
+  --color-secondary: #ff0000;
+  --color-TextPrimary: #070211;
+}
+:root {
+  font-family: var(--font-inter);
+
+  color: var(--color-TextPrimary);
+  background-color: var(--color-bgPrimary);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  min-height: 100vh;
+}
