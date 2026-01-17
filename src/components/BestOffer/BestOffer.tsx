@@ -60,12 +60,16 @@ const BestOffer = () => {
             consectetur.
           </p>
         </div>
-        <div className="h-[662px] w-full">
-          <img src={gift} alt="gift" className="w-[674px] h-[577px]" />
-          <p className="bg-secondary h-[220px] w-[220px] rounded-full font-inter font-bold text-[73px] text-white">
-            50% <br /> DISCOUNT
-          </p>
-          <div className="bg-secondary w-full h-[229px] rounded-2xl"></div>
+        <div className="h-165.5 w-full relative">
+          <img
+            src={gift}
+            alt="gift"
+            className="w-168.5 h-144.25 absolute bottom-6 left-22 z-30 drop-shadow-TextPrimary/20"
+          />
+          <div className="bg-secondary leading-12 font-inter font-bold text-[28px] text-white flex flex-col justify-center items-center -rotate-45 h-48 w-48 rounded-full absolute right-8 top-48">
+            <span className="text-[72px]">50%</span> DISCOUNT
+          </div>
+          <div className="bg-secondary w-full h-57.25 rounded-2xl absolute -bottom-14 z-10"></div>
         </div>
       </Section>
     </Container>
