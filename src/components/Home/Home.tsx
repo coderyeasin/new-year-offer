@@ -5,6 +5,7 @@ import Offer from "../Offer/Offer";
 import WelcomeParty from "../WelcomeParty/WelcomeParty";
 import BestOffer from "../BestOffer/BestOffer";
 import ProductsPortfolio from "../ProductsPortfolio/ProductsPortfolio";
+import Newsletter from "../Newsletter/Newsletter";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
         <WelcomeParty />
         <BestOffer />
         <ProductsPortfolio />
+        <Newsletter />
       </Container>
     </Section>
   );
