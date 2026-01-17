@@ -27,7 +27,7 @@ const WelcomeParty = () => {
             <span className="text-secondary">Place:</span> New Park Hotel
           </p>
           <p className="text-TextPrimary font-inter font-semibold text-[32px] leading-14">
-            <span className="text-secondary">Date:</span> 31 December Night 2023
+            <span className="text-secondary">Date:</span> 31 December Night 2026
           </p>
           <p className="text-TextPrimary font-inter font-semibold text-[32px] leading-14">
             <span className="text-secondary">Time:</span> Evening 7.30 pm to
