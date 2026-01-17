@@ -14,12 +14,12 @@ const Footer = () => {
             Beach Gardens Florida 33410
           </p>
           <div className="font-inter font-medium text-[24px] leading-10">
-            <p className="flex gap-5">
+            <p className="flex items-center gap-3">
               <FaPhoneVolume />
               +00 123 584 124
             </p>
             <p className="flex gap-5">
-              <TbWorldWww />
+              <TbWorldWww className="mt-2" />
               www.website.com
             </p>
           </div>
