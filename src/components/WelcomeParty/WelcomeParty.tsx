@@ -6,7 +6,7 @@ const WelcomeParty = () => {
   return (
     <Container>
       <Section>
-        <div className="flex justify-center gap-10 items-center w-full h-[600px] bg-[linear-gradient(to_right,rgba(0,0,0,0.8),rgba(0,0,0,0)),url('/src/assets/party.png')] rounded-2xl">
+        <div className="flex justify-center gap-10 items-center w-full h-150 bg-[linear-gradient(to_right,rgba(0,0,0,0.8),rgba(0,0,0,0)),url('/src/assets/party.png')] rounded-2xl">
           <div className="text-white space-y-7">
             <h1 className=" text-[64px] font-black font-merriweather leading-[88px] ">
               Welcome to <br /> midnight party
@@ -22,19 +22,18 @@ const WelcomeParty = () => {
         </div>
       </Section>
       <Section>
-        <div className="w-full h-[482px] bg-linear-to-t from-white to-secondary/15 rounded-2xl mx-auto">
-          <p className="text-TextPrimary font-inter font-semibold text-[32px] leading-[56px]">
+        <div className="w-full h-120.5 bg-linear-to-t from-white to-secondary/15 rounded-2xl flex flex-col justify-center items-center">
+          <p className="text-TextPrimary font-inter font-semibold text-[32px] leading-14">
             <span className="text-secondary">Place:</span> New Park Hotel
           </p>
-          <p className="text-TextPrimary font-inter font-semibold text-[32px] leading-[56px]">
-            <span className="text-secondary">Date::</span> 31 December Night
-            2023
+          <p className="text-TextPrimary font-inter font-semibold text-[32px] leading-14">
+            <span className="text-secondary">Date:</span> 31 December Night 2023
           </p>
-          <p className="text-TextPrimary font-inter font-semibold text-[32px] leading-[56px]">
-            <span className="text-secondary">Time::</span> Evening 7.30 pm to
+          <p className="text-TextPrimary font-inter font-semibold text-[32px] leading-14">
+            <span className="text-secondary">Time:</span> Evening 7.30 pm to
             12.30 am
           </p>
-          <button className="bg-secondary text-white text-[20px] font-inter font-bold rounded-2xl w-[167px] h-[56px] px-[16px] py-[32px]">
+          <button className="bg-secondary mt-10 text-white text-[20px] font-inter font-bold rounded-2xl w-41.75 h-14 px-4 py-3">
             Join Now
           </button>
         </div>
