@@ -15,12 +15,13 @@ A strictly typed, pixel-perfect React application designed to showcase exclusive
 
 ## ✨ Key Features
 
+- **🎨 Linear gradients:** Advanced Gradient Usage
 - **🎨 Pixel-Perfect Implementation:** Faithful conversion of the Figma design to code, ensuring every spacing, font size, and color matches the original vision.
 - **📐 Consistent layout system:** Adaptive layout using Tailwind CSS that looks stunning on desktop screens.
 - **🔒 Type-Safe Architecture (props & components):** Built with **TypeScript** for robust, error-free code and better developer experience.
 - **🎨 Clean typography using Google Fonts:** Integrated **Google Fonts** for clean and modern typography.
 - **🧩 Component-Based:** Organized project structure with reusable components and React Icons for scalable development.
-- **⚡ Fast build with Vite:**
+- **⚡ Fast build with Vite**
 
 ---
 
