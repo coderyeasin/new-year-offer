@@ -1,11 +1,6 @@
-import { type ReactNode } from "react";
+import type { CoreProps } from "../../types/type";
 
-interface SectionProps {
-  children: ReactNode;
-  className?: string;
-}
-
-const Section = ({ children, className }: SectionProps) => {
+const Section = ({ children, className }: CoreProps) => {
   return (
     <section className={`py-10 lg:py-10 ${className}`}>{children}</section>
   );

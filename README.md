@@ -16,10 +16,11 @@ A strictly typed, pixel-perfect React application designed to showcase exclusive
 ## ✨ Key Features
 
 - **🎨 Pixel-Perfect Implementation:** Faithful conversion of the Figma design to code, ensuring every spacing, font size, and color matches the original vision.
-- **📱 Fully Responsive:** Adaptive layout using Tailwind CSS that looks stunning on mobile, tablet, and desktop screens.
-- **🛡️ Type-Safe Architecture:** Built with **TypeScript** for robust, error-free code and better developer experience.
-- **🔤 Typography:** Integrated **Google Fonts** for clean and modern typography.
+- **📐 Consistent layout system:** Adaptive layout using Tailwind CSS that looks stunning on desktop screens.
+- **🔒 Type-Safe Architecture (props & components):** Built with **TypeScript** for robust, error-free code and better developer experience.
+- **🎨 Clean typography using Google Fonts:** Integrated **Google Fonts** for clean and modern typography.
 - **🧩 Component-Based:** Organized project structure with reusable components and React Icons for scalable development.
+- **⚡ Fast build with Vite:**
 
 ---
 
@@ -45,5 +46,10 @@ src/
 ├── assets/          # Static assets (images, logos)
 ├── components/      # Reusable UI elements (Buttons, Cards, Modals)
 ├── layout/          # Structural components (Navbar, Footer, Hero Section)
+├── types/           # Shared TypeScript interfaces
 └── App.tsx          # Main entry point
 ```
+
+## 🧱 Layout Structure
+
+The app uses a **shared layout pattern** to maintain consistency across landing page.
