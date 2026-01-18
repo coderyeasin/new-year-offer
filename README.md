@@ -45,8 +45,8 @@ The codebase focuses on clean code principles and modularity:
 ```bash
 src/
 ├── assets/          # Static assets (images, logos)
-├── components/      # Reusable UI elements (Buttons, Cards, Modals)
-├── layout/          # Structural components (Navbar, Footer, Hero Section)
+├── components/      # Reusable UI elements (Sections, Buttons)
+├── layout/          # Structural components (Container, Navbar, Footer)
 ├── types/           # Shared TypeScript interfaces
 └── App.tsx          # Main entry point
 ```
